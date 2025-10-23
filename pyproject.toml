@@ -1,12 +1,18 @@
 [project]
 name = "ty-django-issue"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
-
-[tool.uv.workspace]
-members = [
-    "webserver",
+description = ""
+authors = [
+    {name = "Raymond Gasper",email = "raymondgasper@fastmail.com"}
 ]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    # need django installed top-level to initiate new django project
+    "django (>=5.2.7,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
