@@ -9,3 +9,7 @@ dependencies = [
     "python-lsp-server>=1.13.1",
     "ty>=0.0.1a23",
 ]
+
+# doesnt seem to do anything here
+# [tool.ty.environment]
+# extra-paths = [".", "./webserver/mysite"]
