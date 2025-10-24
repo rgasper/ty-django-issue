@@ -9,4 +9,4 @@ dependencies = [
 ]
 
 [tool.ty.environment]
-extra-paths = [".", "./webserver/mysite"]
+extra-paths = ["./webserver/mysite"]
